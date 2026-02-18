@@ -23,10 +23,10 @@ Steps:
 The R script loads the processed table and generates histograms and boxplots comparing SNPs and INDELs.
 
 ### PHRED boxplot
-![PHRED boxplot](results/box_phred.pdf)
+![PHRED boxplot](results/box_phred.png)
 SNPs show higher median and mean PHRED values than INDELs, indicating generally higher sequencing quality, although both groups include extreme outliers (max = 999).
 ### DP boxplot
-![DP boxplot](results/box_dp.pdf)
+![DP boxplot](results/box_dp.png)
 INDELs tend to have higher median and mean DP than SNPs, reflecting the need for stronger read support to confidently call INDELs.
 
 

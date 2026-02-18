@@ -23,8 +23,8 @@ g2 <- ggplot(var, aes(x = type, y = dp, fill = type)) +
   theme_minimal() +
   labs(title = "Read Depth (DP) by Variant Type", x = "Variant Type", y = "DP")
 
-ggsave("box_phred.pdf", plot = g1, width = 6, height = 4)
-ggsave("box_dp.pdf", plot = g2, width = 6, height = 4)
+ggsave("results/box_phred.png", plot = g1, width = 6, height = 4)
+ggsave("results/box_dp.png", plot = g2, width = 6, height = 4)
 
 
 
